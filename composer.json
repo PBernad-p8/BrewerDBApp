@@ -1,0 +1,14 @@
+{
+    "name": "breweryDB",
+    "version": "1.0",
+
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BreweryDB\\": "lib/"
+        }
+    }
+}

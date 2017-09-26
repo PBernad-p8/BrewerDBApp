@@ -1,0 +1,6 @@
+# IDE Specific files
+.vscode
+
+# Other files and directories
+/vendor
+/list

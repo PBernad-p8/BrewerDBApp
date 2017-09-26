@@ -1,0 +1,17 @@
+<?php
+use BreweryDB\BreweryService;
+
+// Some handy definitions
+define('ROOT', dirname(__FILE__) . '/');
+define('CONFIG', ROOT . 'config/');
+define('LIB', ROOT . 'lib/');
+
+// Include configurations
+include(CONFIG . 'BreweryDBApi.php');
+include(CONFIG . 'config.php');
+
+// Include needed classes
+require 'vendor/autoload.php';
+
+$brewery = new BreweryService();
+$brewery->run();
